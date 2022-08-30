@@ -1,0 +1,15 @@
+stage:
+  name: dev
+
+
+service_config:
+  host: 0.0.0.0
+  port: 8080
+  workers: 1
+  reload: True
+
+AUTH0_CREDENTIALS:
+  AUTH0_DOMAIN:
+  AUTH0_API_AUDIENCE:
+  AUTH0_ALGORITHMS:
+  AUTH0_ISSUER:
